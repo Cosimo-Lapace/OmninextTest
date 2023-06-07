@@ -3,7 +3,8 @@
     <div class="divlogo">
     <img src="../../assets/public/image/logo.png" class="img-fluid" style="width: 173px; height: 42,65;">
   </div>
-    <div>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
           <a class="nav-link maintextcolor" aria-current="page" href="#">Welfare Aziendale</a>
@@ -22,10 +23,19 @@
         </li>
       </ul>
     </div>
-      <div class="divbutton">
-        <button class="ButtonNav" type="submit" style="width: 184px;height: 37px;">Accedi alla piattaforma</button>
+      <div class="divbutton collapse navbar-collapse">
+        <button class="ButtonNav" type="submit"><i class="bi bi-door-open IconButtonNav"></i> Accedi alla piattaforma</button>
       </div>
-
-
+      <div class="divpostcollapse d-flex justify-content-evenly">
+      <a class="Login nav-link "><i class="bi bi-door-open IconButtonNavLogin"></i> Accedi</a>
+      <button class="navbar-toggler border-0 " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="">
+          <i class="bi bi-list-nested ColorMain"></i>
+        </span>
+      </button>
+    </div>
   </div>
 </nav>
+
+
+
