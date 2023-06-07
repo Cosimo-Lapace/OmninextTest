@@ -1,1 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
+@import 'bootstrap';
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500;600;700&display=swap');
+* {
+  font-family: 'Nunito', sans-serif;
+  box-sizing: border-box;
+}
+:root{
+  --main-color: #2B50B0;
+}
+.maintextcolor{
+  color: var(--main-color);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 19px;
+}
