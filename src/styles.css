@@ -8,6 +8,7 @@
 }
 :root{
   --main-color: #2B50B0;
+  --secondary-color: rgba(47,83,177,255);
 }
 .maintextcolor{
   color: var(--main-color);
