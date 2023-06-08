@@ -1,0 +1,148 @@
+.carousel {
+  margin: 4rem;
+  overflow: hidden;
+  text-align: center;
+}
+
+.slides {
+  width: 100%;
+  display: flex;
+  overflow-x: scroll;
+  scrollbar-width: none;
+  scroll-snap-type: none;
+  scroll-behavior: smooth;
+}
+
+.slides::-webkit-scrollbar {
+  display: none;
+}
+
+.slides-item {
+  align-items: center;
+  border-radius: 10px;
+  display: flex;
+  flex-shrink: 0;
+  font-size: 100px;
+  height: 28rem;
+  justify-content: center;
+  margin: 0 1rem;
+  position: relative;
+  transform: scale(1);
+  transform-origin: center center;
+  transition: transform .2s;
+  width: 65%;
+}
+
+.slides-item > .col-5 > img{
+
+  width: 25rem;
+  height: 25rem;
+  margin-right: 2rem;
+}
+.imgsize1{
+  width: 450px;
+}
+.imgsize2{
+  width: 490px;
+}
+.imgsize3{
+  margin-top: 15px;
+  width: 400px;
+}
+.imgsize4{
+  width: 520px;
+ margin-top: -23px;
+}
+.slide-text > h1 {
+  font-size: 3.5rem;
+  font-weight: bold;
+
+
+}
+
+.slide-text > p {
+  font-size: 15px;
+}
+.slide-text > span {
+  margin-left: .5rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.slides-item > .slide-text > span{
+  position: absolute;
+  bottom: 1rem;
+}
+
+.carousel-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+
+}
+
+.slider-nav {
+  margin: 3px;
+  cursor: pointer;
+ background-color: #e6ecf8;
+ width: 10px;
+ height: 10px;
+ border-radius: 50%;
+}
+
+.slider-nav:hover{
+  background-color: #1f3f91;
+border-radius: 12.5px;
+  width: 18px;
+  transition: 0.4s;
+}
+
+.slide-1 {
+  background-color: rgba(40, 59, 108, 1);
+}
+
+.slide-2 {
+  background-color: rgba(113, 106, 202, 1);
+}
+
+.slide-3 {
+  background-color: rgba(66, 107, 209, 1);
+}
+
+.slide-4 {
+  background-color: rgba(41, 152, 130, 1);
+}
+@media screen and (max-width: 1026px) {
+.pwelfarefringe{
+  font-size: 14px !important;
+}
+
+
+ }
+ @media screen and (max-width: 963px) {
+  .pwelfarefringe{
+    font-size: 13px !important;
+  }
+
+
+   }
+   @media screen and (max-width: 863px) {
+    .pwelfarefringe{
+      font-size: 12px !important;
+    }
+
+
+     }
+     @media screen and (max-width: 719px) {
+     #carousel{
+      margin-top: 320px !important;
+     }
+      p{
+      display: none !important;
+     }
+   
+
+
+       }
+
