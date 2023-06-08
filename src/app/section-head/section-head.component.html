@@ -1,0 +1,10 @@
+<section class="container-fluid text-center mt-5 icons">
+  <h2>Offriamo alle PMI supporto nei seguenti ambiti</h2>
+  <div class="row sect-row px-5 mb-3 pt-0 ">
+      <div class="col-sm-3 sect-detail" *ngFor="let image of images">
+        <img src={{image.imagePath}} alt="" class="img-fluid">
+        <h3>{{image.title}}</h3>
+        <p>{{image.title}}</p>
+    </div>
+  </div>
+</section>

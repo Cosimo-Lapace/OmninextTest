@@ -1,0 +1,22 @@
+.sect-row {
+  margin-top: 5rem;
+}
+
+.sect-detail {
+  padding: 2rem;
+}
+
+.sect-detail > p{
+  padding: 0 2.5rem;
+}
+
+.icons > h2 {
+  font-weight: bold;
+}
+@media screen and (max-width: 939px) {
+ .icons{
+  display: none;
+ }
+
+
+ }
