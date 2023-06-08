@@ -141,8 +141,74 @@ border-radius: 12.5px;
       p{
       display: none !important;
      }
-   
+    .slider-nav{
+    display: none;
+     }
+     .slides{
+      display: inline;
+      overflow-y: scroll;
+
+     }
+     .slide-1,.slide-2,.slide-3,.slide-4{
+      margin-left: 50px !important;
+      margin-bottom: 20px !important;
+     }
+     .imgsize1{
+      position: relative;
+      top: 20px;
+      right: 250px;
+      max-width: 350px !important;
+     }
+     .imgsize2{
+      position: relative;
+      max-width: 350px !important;
+      top: 40px;
+      right: 190px;
+     }
+     .imgsize3{
+      position: relative;
+      max-width: 350px !important;
+      top: 30px;
+      right: 220px;
+     }
+     .imgsize4{
+      position: relative;
+      max-width: 350px !important;
+      top: 80px;
+    right: 200px;
+
+     }
 
 
        }
+       @media screen and (max-width: 595px) {
+        .imgsize1,.imgsize2,.imgsize3,.imgsize4{
+          max-width: 300px !important;
+          right: 200px;
+        }
+        .imgsize2{
+          right: 150px;
+        }
+        .imgsize3{
+          right: 180px;
+        }
+        .imgsize4{
+          right: 180px;
+        }
+      }
+      @media screen and (max-width: 575px) {
+        .imgsize1,.imgsize2,.imgsize3,.imgsize4{
+          max-width: 200px !important;
+          right: 10px;
+          top: -20px;
+        }
+        .imgsize2,.imgsize3,.imgsize4{
+          right: 4px;
+        }
+
+      }
+
+
+
+
 
