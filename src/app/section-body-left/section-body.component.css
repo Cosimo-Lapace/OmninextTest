@@ -1,0 +1,41 @@
+.app-detail{
+  display: flex;
+  flex-direction: column;
+  justify-content:space-around;
+  padding: 70px 120px;
+}
+.app-detail > h4{
+  color: rgb(191, 192, 199)
+}
+.app-detail > p{
+  color: rgb(7, 38, 115)
+}
+.app-detail > h2{
+  color: rgb(7, 38, 115);
+  font-weight: 800;
+  font-size: 5rem;
+}
+@media screen and (max-width: 720px) {
+  .app-detail{
+    width: 450px;
+  }
+    .app-image{
+      width: 400px;
+    }
+
+}
+
+
+@media screen and (max-width: 575px) {
+  .app-detail{
+    width: 450px;
+  }
+    .app-image{
+      width: 400px;
+    }
+
+  section{
+  margin-top: -120px !important;
+  margin-left: 20px;
+}
+}
