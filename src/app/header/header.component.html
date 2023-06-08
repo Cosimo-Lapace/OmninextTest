@@ -38,32 +38,22 @@
           <div style="background-color: black;height: 2px;width: 300px;border-radius: 5px; margin: 5px 0;">
               <br>
           </div>
-          <i class="bi bi-chevron-compact-down" style="font-size: 30px; cursor: pointer; display: none;"></i>
-          <ul>
-              <li class="list-group-item">
-                  <i class="bi bi-check-circle-fill"></i>
-                  Utenti illimitati
-              </li>
-              <li class="list-group-item">
-                  <i class="bi bi-check-circle-fill"></i>
-                  Piattaforma MySarma
-              </li>
-              <li class="list-group-item">
-                  <i class="bi bi-check-circle-fill"></i>
-                  Gestione del contratto online
-              </li>
-              <li class="list-group-item">
-                  <i class="bi bi-check-circle-fill"></i>
-                  MySarma Welfare Card (fino a 258€)
-              </li>
-              <li class="list-group-item">
-                  <i class="bi bi-check-circle-fill"></i>
-                  Importi personalizzabili online
-              </li>
-              <li class="list-group-item">
-                  <i class="bi bi-check-circle-fill"></i>
-                  Sconti e Coupon
-              </li>
+          <i class="bi bi-chevron-compact-down" style="font-size: 30px; cursor: pointer; display: none;" (click)="checkicon()"></i>
+          <ul *ngIf="CheckIcon">
+            <li class="list-group-item" *ngFor="let dropdownItem of dropdownItems">
+                <i class="bi bi-check-circle-fill"></i>
+               {{dropdownItem}}
+            </li>
+        </ul>
+
+
+
+          <!-- ----------------- -->
+          <ul class="ulcardDesk">
+            <li class="list-group-item" *ngFor="let dropdownItem of dropdownItems">
+              <i class="bi bi-check-circle-fill"></i>
+             {{dropdownItem}}
+          </li>
           </ul>
           <div class="card-button">
               <button>Attiva Piano GO!</button>
