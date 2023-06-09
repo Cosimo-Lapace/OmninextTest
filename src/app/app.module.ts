@@ -8,6 +8,7 @@ import { SectionHeadComponent } from './section-head/section-head.component';
 import { CarouselComponent } from './carousel/carousel.component';
 import { SectionBodyLeftComponent } from './section-body/section-body.component';
 import { SectionBodyIconsComponent } from './section-body-icons/section-body-icons.component';
+import { SectionTapeComponent } from './section-tape/section-tape.component';
 
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import { SectionBodyIconsComponent } from './section-body-icons/section-body-ico
     CarouselComponent,
     SectionBodyLeftComponent,
     SectionBodyIconsComponent,
+    SectionTapeComponent,
   ],
   imports: [
     BrowserModule
