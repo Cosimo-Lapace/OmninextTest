@@ -1,4 +1,5 @@
-import { Component, DoCheck, OnInit, } from '@angular/core';
+import { Component, Output } from '@angular/core';
+import { ContentCardService } from '../shared/content-card.service';
 
 @Component({
   selector: 'app-header',
@@ -7,10 +8,11 @@ import { Component, DoCheck, OnInit, } from '@angular/core';
 })
 export class HeaderComponent {
 
-  CheckIcon: boolean = false;
+   CheckIcon: boolean = false;
   c = 0;
-  dropdownItems: string[] = [' Utenti illimitati', '  Piattaforma MySarma', ' Gestione del contratto online','  MySarma Welfare Card (fino a 258€)',' Importi personalizzabili online',' Sconti e Coupon']
-  constructor() {}
+
+  constructor(private ContentCard : ContentCardService) {}
+  dropdownItems = this.ContentCard.Items;
   checkicon() {
     this.CheckIcon = true;
     this.c++;

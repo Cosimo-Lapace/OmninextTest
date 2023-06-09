@@ -173,14 +173,22 @@ border-radius: 12.5px;
   width: 490px;
 }
 .imgsize3{
-  margin-top: 55px;
+  margin-top: 135px;
   width: 400px;
 }
 .imgsize4{
   width: 520px;
-  margin-top: 35px;
+  margin-top: 135px;
 }
-
+.h4slide1,.h4slide2{
+  width: 300px !important;
+}
+.h4slide3,.h4slide4{
+  width: 350px !important;
+}
+.divslide3,.divslide4{
+  height: 600px !important;
+}
 
  }
  @media screen and (max-width: 963px) {
@@ -199,7 +207,7 @@ border-radius: 12.5px;
      }
      @media screen and (max-width: 719px) {
      #carousel{
-      margin-top: 320px !important;
+      margin-top: 550px !important;
      }
       p{
       display: none !important;
@@ -218,30 +226,41 @@ border-radius: 12.5px;
      }
      .imgsize1{
       position: relative;
-      top: 20px;
-      right: 250px;
-      max-width: 350px !important;
+      top: 90px;
+      right: 200px;
+      max-width: 250px !important;
      }
      .imgsize2{
       position: relative;
-      max-width: 350px !important;
-      top: 40px;
-      right: 190px;
+      max-width: 250px !important;
+      top: 110px;
+      right: 140px;
      }
      .imgsize3{
       position: relative;
-      max-width: 350px !important;
-      top: 30px;
-      right: 220px;
+      max-width: 250px !important;
+      top: 90px;
+      right: 180px;
      }
      .imgsize4{
       position: relative;
-      max-width: 350px !important;
-      top: 80px;
-    right: 200px;
+      max-width: 250px !important;
+      top: 110px;
+      right: 140px;
 
      }
+     @media screen and (max-width: 666px) {
 
+      .h4slide3,.h4slide4{
+        width: 250px !important;
+      }
+      .divslide3,.divslide4{
+        height: 600px !important;
+      }
+      .imgsize3{
+        top: 130px;
+       }
+    }
 
        }
        @media screen and (max-width: 595px) {
@@ -267,6 +286,9 @@ border-radius: 12.5px;
           max-width: 200px !important;
           right: 10px;
           top: -20px;
+        }
+        .imgsize1{
+          top: -60px;
         }
         .imgsize2,.imgsize3,.imgsize4{
           right: 4px;

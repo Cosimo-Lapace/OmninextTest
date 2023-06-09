@@ -38,3 +38,39 @@
   height: 75%;
   margin-right: 80px;
 }
+
+@media screen and (max-width: 1350px) {
+  .h2titlesectioncard{
+    padding: 0px;
+    width: 600px !important;
+  }
+  .h6titlesectioncard{
+    padding: 0px !important;
+    width: 800px !important;
+  }
+  .lat{
+    display: none;
+  }
+
+
+ }
+ @media screen and (max-width: 1000px) {
+  .card{
+    width: 500px !important;
+    margin: 0px !important;
+    margin-bottom: 20px !important;
+
+  }
+  .h2titlesectioncard{
+    padding: 0px;
+    width: 400px !important;
+  }
+  .h6titlesectioncard{
+    padding: 0px !important;
+    width: 400px !important;
+  }
+  .double-card-head{
+    padding: 0px !important;
+  }
+ 
+ }

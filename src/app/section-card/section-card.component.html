@@ -1,14 +1,14 @@
 
 <section id="double-card" class="container-fluid">
   <div class="double-card-head text-center">
-      <h2>Attiva il tuo piano Go oppure Pro</h2>
-      <h6>Segli se attivare subito il Piano Go oppure richedere un preventivo per il Piano Pro al nostro consulente
+      <h2 class="h2titlesectioncard">Attiva il tuo piano Go oppure Pro</h2>
+      <h6 class="h6titlesectioncard">Segli se attivare subito il Piano Go oppure richedere un preventivo per il Piano Pro al nostro consulente
       </h6>
   </div>
 
-  <!-- CARDS -->
+
   <div class="row d-flex justify-content-around mt-5">
-      <div class="col-sm-2"></div>
+      <div class="col-sm-2 lat"></div>
       <div class="col-sm-5 card text-center ">
           <div class="card-head">
               <h4 class="mt-3">Piano GO!</h4>
@@ -27,31 +27,11 @@
           <div style="background-color: black;height: 2px;width: 300px;border-radius: 5px; margin: 5px 0;">
               <br>
           </div>
-          <ul>
-              <li class="list-group-item">
-                  <i class="bi bi-check-circle-fill"></i>
-                  Utenti illimitati
-              </li>
-              <li class="list-group-item">
-                  <i class="bi bi-check-circle-fill"></i>
-                  Piattaforma MySarma
-              </li>
-              <li class="list-group-item">
-                  <i class="bi bi-check-circle-fill"></i>
-                  Gestione del contratto online
-              </li>
-              <li class="list-group-item">
-                  <i class="bi bi-check-circle-fill"></i>
-                  MySarma Welfare Card (fino a 258€)
-              </li>
-              <li class="list-group-item">
-                  <i class="bi bi-check-circle-fill"></i>
-                  Importi personalizzabili online
-              </li>
-              <li class="list-group-item">
-                  <i class="bi bi-check-circle-fill"></i>
-                  Sconti e Coupon
-              </li>
+          <ul class="">
+            <li class="list-group-item" *ngFor="let dropdownItem of dropdownItems">
+              <i class="bi bi-check-circle-fill"></i>
+             {{dropdownItem}}
+          </li>
           </ul>
           <div class="card-button">
               <button>Attiva Piano GO!</button>
@@ -84,49 +64,9 @@
               <br>
           </div>
           <ul>
-              <li class="list-group-item">
+              <li class="list-group-item"  *ngFor="let Item2 of Items2">
                   <i class="bi bi-check-circle-fill"></i>
-                  Utenti illimitati
-              </li>
-              <li class="list-group-item">
-                  <i class="bi bi-check-circle-fill"></i>
-                  Welfare guru
-              </li>
-              <li class="list-group-item">
-                  <i class="bi bi-check-circle-fill"></i>
-                  Piattaforma MySarma
-              </li>
-              <li class="list-group-item">
-                  <i class="bi bi-check-circle-fill"></i>
-                  Gestione del contratto online
-              </li>
-              <li class="list-group-item">
-                  <i class="bi bi-check-circle-fill"></i>
-                  Credito Welfare (illimitato)
-              </li>
-              <li class="list-group-item">
-                  <i class="bi bi-check-circle-fill"></i>
-                  Importi personalizzabili online
-              </li>
-
-              <li class="list-group-item">
-                  <i class="bi bi-check-circle-fill"></i>
-                  Gestione Scadenziata degli importi
-              </li>
-
-              <li class="list-group-item">
-                  <i class="bi bi-check-circle-fill"></i>
-                  Gestione di più borsellini welfare
-              </li>
-
-              <li class="list-group-item">
-                  <i class="bi bi-check-circle-fill"></i>
-                  Flexible Benefit
-              </li>
-
-              <li class="list-group-item">
-                  <i class="bi bi-check-circle-fill"></i>
-                  Sconti e Coupon
+                 {{Item2}}
               </li>
           </ul>
           <div class="card-button">
@@ -140,7 +80,7 @@
           </div>
 
       </div>
-      <div class="col-sm-2"></div>
+      <div class="col-sm-2 lat"></div>
   </div>
 </section>
 
