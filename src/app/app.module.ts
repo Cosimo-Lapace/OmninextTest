@@ -6,7 +6,8 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { HeaderComponent } from './header/header.component';
 import { SectionHeadComponent } from './section-head/section-head.component';
 import { CarouselComponent } from './carousel/carousel.component';
-import { SectionBodyLeftComponent } from './section-body-left/section-body.component';
+import { SectionBodyLeftComponent } from './section-body/section-body.component';
+import { SectionBodyIconsComponent } from './section-body-icons/section-body-icons.component';
 
 @NgModule({
   declarations: [
@@ -16,6 +17,7 @@ import { SectionBodyLeftComponent } from './section-body-left/section-body.compo
     SectionHeadComponent,
     CarouselComponent,
     SectionBodyLeftComponent,
+    SectionBodyIconsComponent,
   ],
   imports: [
     BrowserModule

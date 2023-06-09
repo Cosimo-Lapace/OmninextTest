@@ -1,0 +1,36 @@
+.icons-2 {
+  margin: 5rem 0;
+}
+p{
+  margin-bottom: 0px !important;
+  width: 400px;
+}
+
+.sect-2-detail>img {
+  height: 150px;
+  width: 200px;
+  margin-bottom: 20px;
+}
+
+.sect-2-detail > h5{
+  color: #5a5e6d;
+}
+
+.sect-2-detail > p{
+  padding: 0 1rem;
+  color: #717588;
+}
+
+.button-icons-2{
+  margin-top: 20px;
+  height: 45px;
+  width: 165px;
+  background-color: #fff;
+  border-radius: 10px;
+  border-color: black;
+}
+@media screen and (max-width: 1631px) {
+  .sect-2-detail{
+    width: 400px;
+  }
+}
