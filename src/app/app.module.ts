@@ -10,6 +10,7 @@ import { SectionBodyLeftComponent } from './section-body/section-body.component'
 import { SectionBodyIconsComponent } from './section-body-icons/section-body-icons.component';
 import { SectionTapeComponent } from './section-tape/section-tape.component';
 import { SectionCardComponent } from './section-card/section-card.component';
+import { BoxlogoComponent } from './boxlogo/boxlogo.component';
 
 @NgModule({
   declarations: [
@@ -22,6 +23,7 @@ import { SectionCardComponent } from './section-card/section-card.component';
     SectionBodyIconsComponent,
     SectionTapeComponent,
     SectionCardComponent,
+    BoxlogoComponent,
   ],
   imports: [
     BrowserModule
