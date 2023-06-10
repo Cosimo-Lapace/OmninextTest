@@ -1,0 +1,26 @@
+<footer class="container-fluid">
+  <div class="row">
+      <div class="col-sm-1"></div>
+      <div class="col-sm-2 text-light d-flex flex-column justify-content-center mt-5">
+          <a href="#" class="my-2"><img src="../../assets/public/image/logofooter.png" alt="" class="img-fluid"></a>
+          <div class="flag"><img src="../../assets/public/image/italyflag.png" alt="" class="img-fluid"></div>
+          <p class="my-2 pbottomlogo">Il welfare aziendale tutto italiano a portata di PMI.</p>
+      </div>
+      <div class="col-sm-2 d-flex flex-column justify-content-center text-start mt-5" *ngFor="let footertext of footertexts">
+          <a href="#" class="mt-1" [ngClass]="i === 0 ? 'atitle':'abody'" *ngFor="let a of footertext.a; let i = index">{{a}}</a>
+      </div>
+      <div class="col-sm-2 d-flex flex-column justify-content-center align-items-center text-start">
+          <a href="#" class="atitle">Seguici su</a>
+          <a href="#" class="my-1 abody"><i class="bi bi-linkedin" style="border-radius: 50%;"></i> LinkedIn</a>
+      </div>
+      <div class="col-sm-2 mb-3 divright">
+      <div *ngFor="let divrightancor of divrightancors"><a href="#" >{{divrightancor}}</a></div>
+  </div>
+      <div class="col-sm-1"></div>
+  </div>
+  <div class="row mt-2 d flex justify-content-between" style=" margin-left: 2rem; width: 95%; height: 3rem; border-top: 1px solid rgba(110,112,116,255);">
+  <h6 class="col-sm-4" style="font-size: .9rem; color: rgba(110,112,116,255);">Copyright © Mysarma srl - Tutti i diritti riservati</h6>
+  <h6 class="col-sm-4 text-end" style=" font-size: .9rem; color: rgba(110,112,116,255);">Privacy e Coockie Policy</h6>
+  </div>
+</footer>
+

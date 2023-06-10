@@ -1,0 +1,32 @@
+footer{
+  height: 22rem;
+  background-color: rgba(18,27,48,255);
+}
+.pbottomlogo{
+  font-size: 15px;
+  padding-right: 2rem;
+}
+.atitle{
+  color: #fff;
+  font-size: 18px;
+  text-decoration: none;
+}
+.abody{
+  color: rgba(110,112,116,255);
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.flag > img{
+  height: .1rem;
+  width: 10rem;
+}
+.divright{
+  margin-top: 6rem;
+  border-left: 2px solid rgba(110,112,116,255);
+}
+.divright  > div > a{
+  color: rgba(161,181,232,255);
+  font-size: 1.2rem;
+  text-decoration: none;
+}

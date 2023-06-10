@@ -13,6 +13,7 @@ import { SectionCardComponent } from './section-card/section-card.component';
 import { BoxlogoComponent } from './boxlogo/boxlogo.component';
 import { RequestsComponent } from './requests/requests.component';
 import { PreFooterComponent } from './pre-footer/pre-footer.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -28,6 +29,7 @@ import { PreFooterComponent } from './pre-footer/pre-footer.component';
     BoxlogoComponent,
     RequestsComponent,
     PreFooterComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule
