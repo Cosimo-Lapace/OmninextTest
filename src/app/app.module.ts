@@ -12,6 +12,7 @@ import { SectionTapeComponent } from './section-tape/section-tape.component';
 import { SectionCardComponent } from './section-card/section-card.component';
 import { BoxlogoComponent } from './boxlogo/boxlogo.component';
 import { RequestsComponent } from './requests/requests.component';
+import { PreFooterComponent } from './pre-footer/pre-footer.component';
 
 @NgModule({
   declarations: [
@@ -26,6 +27,7 @@ import { RequestsComponent } from './requests/requests.component';
     SectionCardComponent,
     BoxlogoComponent,
     RequestsComponent,
+    PreFooterComponent,
   ],
   imports: [
     BrowserModule

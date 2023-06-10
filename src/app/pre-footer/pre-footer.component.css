@@ -1,0 +1,115 @@
+.newsletter{
+  margin-top: 10rem;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  background-image: url('../../assets/public/image/bluefoot.png');
+  background-size: 1900px;
+}
+
+.field{
+  display: flex;
+  align-items: center;
+}
+.field > input {
+  width: 50%;
+  height: 50px;
+  margin-right: 20px;
+  border-radius: 10px;
+  border-color: transparent;
+}
+
+.field > button {
+  height: 50px;
+  width: 110px;
+  background-color: #fff;
+  border-radius: 10px;
+  border-color: transparent;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 916px) {
+  .col-sm-1{
+    display: none;
+  }
+  #newsletter{
+    width: 650px !important;
+    margin-left: 150px !important;
+  }
+  h2{
+    margin-left: -15px !important;
+  }
+  h6{
+    width: 300px !important;
+  }
+
+}
+@media screen and (max-width: 856px) {
+  #newsletter{
+    margin-left: 120px !important;
+  }
+}
+  @media screen and (max-width: 814px){
+    #newsletter{
+      margin-left: 100px !important;
+    }
+  }
+  @media screen and (max-width: 800px){
+    #newsletter{
+      margin-left: 80px !important;
+    }
+  }
+  @media screen and (max-width: 773px){
+    h2,h6{
+      width: 600px !important;
+    }
+    h2{
+      margin-left: 87px !important;
+    }
+    .field{
+      width: 500px !important;
+    }
+    .field > input{
+      width: 350px !important;
+    }
+  }
+  @media screen and (max-width: 773px){
+    #newsletter{
+      margin-left: 60px !important;
+    }
+  }
+  @media screen and (max-width: 714px){
+    #newsletter{
+      margin-left: 40px !important;
+    }
+  }
+  @media screen and (max-width: 679px){
+    #newsletter{
+      margin-left: 20px !important;
+    }
+  }
+  @media screen and (max-width: 657px){
+    #newsletter{
+      margin-left: 14px !important;
+    }
+  }
+  @media screen and (max-width: 647px){
+    #newsletter{
+      margin-left: 10px !important;
+    }
+  }
+  @media screen and (max-width: 641px){
+    #newsletter{
+      margin-left: 5px !important;
+    }
+  }
+  @media screen and (max-width: 635px){
+    #newsletter{
+      margin-left: 0px !important;
+    }
+  }
+  @media screen and (max-width: 545px){
+    #newsletter{
+      width: 600px !important;
+    }
+  }
