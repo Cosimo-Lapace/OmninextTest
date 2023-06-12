@@ -1,6 +1,11 @@
 # OmninextTest
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.7.
+# How to use
+
+install Angular https://angular.io/guide/setup-local.
+run bootstrap npm i bootstrap@5.3.0.
+run bootstrap icon npm i bootstrap-icons.
 
 ## Development server
 
