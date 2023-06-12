@@ -16,6 +16,9 @@ footer{
   font-size: 16px;
   text-decoration: none;
 }
+.text-light > a > img {
+  width: 150px;
+}
 
 .flag > img{
   height: .1rem;
@@ -30,3 +33,84 @@ footer{
   font-size: 1.2rem;
   text-decoration: none;
 }
+@media screen and (max-width: 841px){
+
+  .col-sm-1{
+    display: none;
+  }
+  .row{
+    display: flex;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 841px){
+  .row{
+    width: 800px;
+  }
+
+}
+@media screen and (max-width: 800px){
+  .row{
+    width: 790px;
+  }
+}
+@media screen and (max-width: 750px){
+  .row{
+    width: 750px;
+  }
+}
+@media screen and (max-width: 730px){
+  footer{
+    height: 500px !important;
+  }
+  .row{
+    display: inline;
+  }
+.text-light{
+  margin: 0px !important;
+  margin-left: 130px !important;
+  padding: 0px;
+  width: 500px;
+  text-align: center;
+}
+.pbottomlogo {
+  width: 250px !important;
+  font-size: 15px;
+  margin-left: 140px !important;
+}
+.divfootercontent,.divfootercontent2,.divfootercontent3{
+  margin: 0px !important;
+  width: 200px !important;
+  display:-webkit-inline-flex !important;
+  justify-content: center;
+  padding: 0px;
+  margin-right: 0px !important;
+  margin-left: 120px !important;
+}
+.divfootercontent2{
+  margin-top: 0px !important;
+  margin-left: 60px !important;
+  margin-right: 50px !important;
+}
+.divfootercontent3{
+  width: 200px !important;
+  border: 0px !important;
+  margin-left: 125px !important;
+}
+
+.h6copyright,.h6copyright2{
+  border-top: 2px solid rgba(110,112,116,255);
+  padding-top: 15px !important;
+  position: relative;
+  top: 80px !important;
+  left: 50px !important;
+  width: 600px !important;
+}
+.h6copyright2{
+  border:0px !important;
+  width: 200px !important;
+  left: 30px !important;
+}
+
+}
+
